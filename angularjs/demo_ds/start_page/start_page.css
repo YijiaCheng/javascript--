@@ -1,0 +1,7 @@
+body {
+    background: url("../res/p_start_page.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
