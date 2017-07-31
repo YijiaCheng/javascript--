@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>收款</title>
+    <link rel="stylesheet" type="text/css" href="charge_money.css">
+</head>
+<body>
+
+<script>
+    function test() {
+        document.getElementById("nav-tip").textContent = "xxxxx";
+    }
+</script>
+<div class="nav">
+    <img id="nav-menu" src="../res/icon_mune.png" onclick="test()">
+    <p id="nav-tip">收款</p>
+    <p id="nav-active">活动</p>
+</div>
+<div class="line"></div>
+
+<div class="account">
+    <p>收款帐号</p>
+    <div class="account-cardInfo">
+        <p id="account-cardInfo-cardNo">6217001212345678901</p>
+        <p class="account-cardInfo-bankName"><img class="account-cardInfo-bankNameImg" src="../res/icon_jsyh.png">中国建设银行</p>
+    </div>
+    <div class="line"></div>
+    <br>
+    <p class="account-toTime">到账时间</p>
+    <p id="account-accountTime">下个工作日到账</p>
+    <br><br>
+</div>
+<br>
+<div class="pay">
+    <br>
+    <p class="pay-money">收款金额</p>
+    <p id="pay-desc"><img class="pay-desc-img" src="../res/icon_info.png">限额说明</p>
+    <br>
+    <br>
+    <p class="pay-RMB">¥<input fo id="pay-inputMoney" type="number" placeholder="请输入收款金额" oninput="if(value.length>10)value=value.slice(0,10)"></p>
+</div>
+
+<div id="surePay">
+    <span class="surePay-desc">确认收款</span>
+</div>
+
+</body>
+</html>

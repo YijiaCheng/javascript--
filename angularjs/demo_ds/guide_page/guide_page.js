@@ -39,3 +39,8 @@
     initStartView();
     initPageView();
 })();
+
+function open() {
+    console.log("open--->");
+    window.location.href='../charge_money/charge_money.html';
+}

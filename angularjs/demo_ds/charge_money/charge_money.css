@@ -1,0 +1,146 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    background-color: rgba(251, 246, 248, 0.99);
+}
+
+.nav {
+    width: 100%;
+    height: 3em;
+    background-color: white;
+}
+
+#nav-menu {
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    left: 10px;
+    top: 1em;
+}
+
+#nav-tip {
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    /*(3-1.2)/2/3*/
+    top: -0.3em;
+}
+
+#nav-active {
+    position: absolute;
+    right: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(219, 214, 216, 0.99);
+}
+
+.account,
+.pay
+{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin: 0%;
+    border: none;
+}
+
+.account-cardInfo {
+    margin-bottom: 10px;
+}
+
+#account-cardInfo-cardNo {
+    display: inline;
+}
+
+.account-cardInfo-bankNameImg {
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 5px;
+    float: left;
+}
+
+.account-cardInfo-bankName {
+    float: right;
+    margin-top: 0;
+}
+
+#account-cardInfo-cardNo,
+.account-cardInfo-bankName
+{
+    line-height: 1.8em;
+}
+
+.account-toTime {
+    display: inline;
+}
+
+#account-accountTime {
+    float: right;
+    margin-top: 0;
+}
+
+.pay-money {
+    display: inline;
+}
+
+.pay-desc-img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 5px;
+    float: left;
+}
+
+#pay-desc {
+    float: right;
+    margin-top: 0;
+}
+
+.pay-money,
+#pay-desc
+{
+    line-height: 1.8em;
+}
+
+.pay-RMB {
+    font-size: 3.2em;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#pay-inputMoney {
+    width: 85%;
+    font-size: 48px;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 10%;
+}
+
+#surePay {
+    width: 80%;
+    height: 45px;
+    position: relative;
+    left: 10%;
+    top: -20px;
+    border-radius: 20px;
+    background-color: #1654e7;
+    border: #1654e7 1px solid;
+    text-align: center;
+}
+
+.surePay-desc {
+    /*0.5em+45px=53px*/
+    line-height: 53px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
